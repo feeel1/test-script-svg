@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>SVG Sprite Injector</title>
+</head>
+<body>
+
+<svg><use xlink:href="#icon-sticker-arrow"></use></svg>
+
+
+<script src="svg-sprite-injector.js"></script>
+<script>
+
+svgSpriteInjector('icons.svg', {
+	revision: 1
+});
+
+</script>
+
+</body>
+</html>
